@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/henman/static/css/main.0113e866.css",
+    "main.js": "/henman/static/js/main.b1dac8d8.js",
+    "static/js/787.fa1be493.chunk.js": "/henman/static/js/787.fa1be493.chunk.js",
+    "static/media/yellowSchoolBusToyModel.jpeg": "/henman/static/media/yellowSchoolBusToyModel.e91274d5b6d898731500.jpeg",
+    "static/media/missPrettyPleaseWtStyle.jpg": "/henman/static/media/missPrettyPleaseWtStyle.6eefc3ff1ec7e969586c.jpg",
+    "static/media/hotAugustWtStyle.jpeg": "/henman/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
+    "static/media/safetyWtStyle.jpeg": "/henman/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
+    "static/media/prettyPleaseWthAuthor-removeBg.png": "/henman/static/media/prettyPleaseWthAuthor-removeBg.9b6965a8775ef6bf3719.png",
+    "static/media/paulCollectionImages.jpg": "/henman/static/media/paulCollectionImages.018ebdd0908ed359f9c7.jpg",
+    "static/media/prettyPleaseBook.jpeg": "/henman/static/media/prettyPleaseBook.e1189f94ffc356b267d1.jpeg",
+    "static/media/whoReallyDrivingYourBusBook.jpg": "/henman/static/media/whoReallyDrivingYourBusBook.463799673be81310987e.jpg",
+    "static/media/StoneHengeLogoBlack.png": "/henman/static/media/StoneHengeLogoBlack.513af1dce2e0e81f4b74.png",
+    "index.html": "/henman/index.html",
+    "main.0113e866.css.map": "/henman/static/css/main.0113e866.css.map",
+    "main.b1dac8d8.js.map": "/henman/static/js/main.b1dac8d8.js.map",
+    "787.fa1be493.chunk.js.map": "/henman/static/js/787.fa1be493.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0113e866.css",
+    "static/js/main.b1dac8d8.js"
+  ]
+}
