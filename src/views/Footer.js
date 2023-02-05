@@ -61,16 +61,6 @@ function FooterPart() {
                 Reviews
               </Link>
             </li>
-            <li>
-              <Link to="order" class="hover:underline">
-                Order
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" class="hover:underline ml-2">
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
       </footer>

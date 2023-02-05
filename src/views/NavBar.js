@@ -1,4 +1,4 @@
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -21,23 +21,18 @@ const NavBar = () => {
     <>
       {" "}
       <nav
-        className={`px-4 sm:px-8 py-4 fixed top-0 w-full z-50 font-Montserrat ${
-          location.pathname === "/"
-            ? colorBgNav
-              ? hamBurgetState ? 'bg-transparent md:text-[#3E8FAA] text-black' : "bg-white md:text-[#3E8FAA] text-black"
-              : "bg-transparent  md:text-[#E6EFF3] text-black"
-            : hamBurgetState ? 'bg-transparent md:text-[#3E8FAA] text-black' : "bg-white md:text-[#3E8FAA] text-black"
-             }`}
+        className={`px-4 sm:px-8 py-4 fixed top-0 w-full z-50 bg-[#46B0C8] text-white`}
         id="navbar"
       >
         <div className=" flex flex-wrap justify-between items-center mx-auto">
           <Link to="author" className="flex items-center">
             {!hamBurgetState && (
-              <span className={` ${location.pathname === "/" ? 'md:text-[#3E8FAA]' : ""} md:text-5xl text-xl font-bold whitespace-nowrap py-4 pr-4`}>
-                <span className=" p-2"> James O. </span> Henman
+              <span
+                className={`font-RobotoSlab md:text-5xl text-xl font-bold whitespace-nowrap py-4 pr-4`}
+              >
+                Jeralynne Linder
               </span>
             )}
-         
           </Link>
 
           <div class="hamburgerDiv">
@@ -59,10 +54,7 @@ const NavBar = () => {
               </svg>
             </div>
           </div>
-          <div
-            className="navLink navLinkDiv  w-full  md:w-auto"
-            id="navbar-default"
-          >
+          <div className="w-full  md:w-auto" id="navbar-default">
             <ul className="flex  p-4  space-x-12 mt-0 lg:mr-8 mr-4 text-xl font-medium ">
               <li>
                 <Link
@@ -73,39 +65,13 @@ const NavBar = () => {
                   Home
                 </Link>
               </li>
-              {/* <li onClick={() => setAboutState(!aboutState)}>
-                <div className="relative py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 ">
-                  <span className="md:hover:text-[#2A4C9A]  ">About</span>
-                 {aboutState && (
-                    <div className="absolute top-12 left-0 bg-transparent px-10 py-2 space-y-2 rounded-lg !text-white">
-                      <div>
-                        <Link
-                          to="author"
-                          className="py-2 pr-4 pl-3 rounded md:bg-transparent md:p-0 md:hover:text-[#2A4C9A] "
-                          aria-current="page"
-                        >
-                          Author
-                        </Link>
-                      </div>
-                      <div>
-                        <Link
-                          to="book"
-                          className="py-2 pr-4 pl-3 rounded md:bg-transparent md:p-0 md:hover:text-[#2A4C9A] "
-                          aria-current="page"
-                        >
-                          Book
-                        </Link>
-                      </div>
-                    </div>
-                  )} 
-                </div>
-              </li> */}
+
               <li>
                 <Link
                   to="author"
                   className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
                 >
-                   Author
+                  Author
                 </Link>
               </li>
               <li>
@@ -116,30 +82,14 @@ const NavBar = () => {
                   Book
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="reviews"
                   className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
                 >
                   Reviews
                 </Link>
-              </li>
-              <li>
-                <Link
-                  to="order"
-                  className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
-                >
-                  Order
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="contact"
-                  className=" py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
-                >
-                  Contact
-                </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -192,7 +142,7 @@ const NavBar = () => {
                   </div>
                 )}
               </li> */}
-               <li>
+              <li>
                 <Link
                   onClick={() => setHamBurgetState(!hamBurgetState)}
                   to="author"
