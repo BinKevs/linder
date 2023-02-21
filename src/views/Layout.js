@@ -6,7 +6,7 @@ import FooterPart from "./Footer";
 const Layout = (props) => {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
 
       <div className="font-Montserrat">
         {/* <Outlet /> */}
