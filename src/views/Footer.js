@@ -57,8 +57,8 @@ function FooterPart() {
             </li>
 
             <li>
-              <Link to="review" class="mr-4 hover:underline">
-                Reviews
+              <Link to="book" class="mr-4 hover:underline">
+                Book
               </Link>
             </li>
           </ul>

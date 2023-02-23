@@ -36,9 +36,9 @@ function Book() {
               </a>
             </div>
           </div>
-          <div class=" md:w-[50%] w-[90%] py-[5%] rounded-bl-[80px]">
+          <div class=" md:w-[50%] w-[120%] py-[5%] rounded-bl-[80px]">
             <img
-              class="object-cover object-center rounded md:ml-auto rounded-bl-[80px] md:w-auto w-[60%] mx-auto"
+              class="object-cover object-center rounded md:ml-auto rounded-bl-[80px] md:w-auto md:w-[60%] mx-auto"
               alt="hero"
               src={siberianWtKindle}
             />

@@ -54,7 +54,10 @@ const NavBar = () => {
               </svg>
             </div>
           </div>
-          <div className="w-full  md:w-auto" id="navbar-default">
+          <div
+            className="w-full  md:w-auto md:block hidden"
+            id="navbar-default"
+          >
             <ul className="flex  p-4  space-x-12 mt-0 lg:mr-8 mr-4 text-xl font-medium ">
               <li>
                 <Link
@@ -97,13 +100,13 @@ const NavBar = () => {
       <AnimatePresence>
         {hamBurgetState && (
           <motion.div
-            className="h-screen bg-white  w-[60%]  right-0 z-40 fixed flex justify-center items-center"
+            className="h-screen bg-[#46B0C8] text-white  w-[60%]  right-0 z-40 fixed flex justify-center items-center"
             initial={{ opacity: 0, x: "100vw", scale: 0.1 }}
             animate={{ opacity: 1, x: "0px", scale: 1 }}
             exit={{ opacity: 0, x: "100vw", scale: 0.1 }}
             transition={{ duration: 0.5 }}
           >
-            <ul className="text-black space-y-4 text-xl font-Montserrat font-medium text-center pb-[82px]">
+            <ul className="space-y-4 text-xl font-Montserrat font-medium text-center pb-[82px]">
               {" "}
               <li>
                 <Link
@@ -115,33 +118,6 @@ const NavBar = () => {
                   Home
                 </Link>
               </li>
-              {/* <li onClick={() => setAboutState(!aboutState)}>
-                About
-                {aboutState && (
-                  <div className=" space-y-2 ml-[80px] text-left border-l-4 border-[#2A4C9A] pl-2">
-                    <div>
-                      <Link
-                        onClick={() => setHamBurgetState(!hamBurgetState)}
-                        to="author"
-                        className=""
-                        aria-current="page"
-                      >
-                        Author
-                      </Link>
-                    </div>
-                    <div>
-                      <Link
-                        onClick={() => setHamBurgetState(!hamBurgetState)}
-                        to="book"
-                        className=""
-                        aria-current="page"
-                      >
-                        Book
-                      </Link>
-                    </div>
-                  </div>
-                )}
-              </li> */}
               <li>
                 <Link
                   onClick={() => setHamBurgetState(!hamBurgetState)}
@@ -158,33 +134,6 @@ const NavBar = () => {
                   className=" "
                 >
                   Book
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setHamBurgetState(!hamBurgetState)}
-                  to="order"
-                  className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
-                >
-                  Order
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setHamBurgetState(!hamBurgetState)}
-                  to="reviews"
-                  className=" "
-                >
-                  Reviews
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setHamBurgetState(!hamBurgetState)}
-                  to="contact"
-                  className=""
-                >
-                  Contact
                 </Link>
               </li>
             </ul>

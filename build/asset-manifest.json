@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/henman/static/css/main.d861705d.css",
-    "main.js": "/henman/static/js/main.93124b38.js",
-    "static/js/787.fa1be493.chunk.js": "/henman/static/js/787.fa1be493.chunk.js",
-    "static/media/siberianWtInfo.jpg": "/henman/static/media/siberianWtInfo.d1386dec94a10d6ced73.jpg",
-    "static/media/siberianWtKindle.jpg": "/henman/static/media/siberianWtKindle.cf8a53d072af8b987ffc.jpg",
-    "static/media/hotAugustWtStyle.jpeg": "/henman/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
-    "static/media/safetyWtStyle.jpeg": "/henman/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
-    "static/media/dogThatCouldNotBarkFrontGreen.jpeg": "/henman/static/media/dogThatCouldNotBarkFrontGreen.a776027eea4b909172b3.jpeg",
-    "static/media/dog_that_could_not_bark_bg-remove.png": "/henman/static/media/dog_that_could_not_bark_bg-remove.b83b683bbaeb84acce1b.png",
-    "static/media/paulCollectionImages.jpg": "/henman/static/media/paulCollectionImages.018ebdd0908ed359f9c7.jpg",
-    "static/media/dogThatCouldNotBarkFrontBlue.jpeg": "/henman/static/media/dogThatCouldNotBarkFrontBlue.d3010d4d78228d664af0.jpeg",
-    "static/media/linder_wtout_bg.png": "/henman/static/media/linder_wtout_bg.834a650a781e5e140356.png",
-    "static/media/StoneHengeLogoBlack.png": "/henman/static/media/StoneHengeLogoBlack.513af1dce2e0e81f4b74.png",
-    "index.html": "/henman/index.html",
-    "main.d861705d.css.map": "/henman/static/css/main.d861705d.css.map",
-    "main.93124b38.js.map": "/henman/static/js/main.93124b38.js.map",
-    "787.fa1be493.chunk.js.map": "/henman/static/js/787.fa1be493.chunk.js.map"
+    "main.css": "/linder/static/css/main.ec24a623.css",
+    "main.js": "/linder/static/js/main.05070bcb.js",
+    "static/js/787.fa1be493.chunk.js": "/linder/static/js/787.fa1be493.chunk.js",
+    "static/media/siberianWtInfo.jpg": "/linder/static/media/siberianWtInfo.d1386dec94a10d6ced73.jpg",
+    "static/media/siberianWtKindle.jpg": "/linder/static/media/siberianWtKindle.cf8a53d072af8b987ffc.jpg",
+    "static/media/hotAugustWtStyle.jpeg": "/linder/static/media/hotAugustWtStyle.163c9794bb13ef8dbf02.jpeg",
+    "static/media/safetyWtStyle.jpeg": "/linder/static/media/safetyWtStyle.25328d3e5f75ec1bae4e.jpeg",
+    "static/media/dogThatCouldNotBarkFrontGreen.jpeg": "/linder/static/media/dogThatCouldNotBarkFrontGreen.a776027eea4b909172b3.jpeg",
+    "static/media/dog_that_could_not_bark_bg-remove.png": "/linder/static/media/dog_that_could_not_bark_bg-remove.b83b683bbaeb84acce1b.png",
+    "static/media/paulCollectionImages.jpg": "/linder/static/media/paulCollectionImages.018ebdd0908ed359f9c7.jpg",
+    "static/media/dogThatCouldNotBarkFrontBlue.jpeg": "/linder/static/media/dogThatCouldNotBarkFrontBlue.d3010d4d78228d664af0.jpeg",
+    "static/media/linder_wtout_bg.png": "/linder/static/media/linder_wtout_bg.834a650a781e5e140356.png",
+    "static/media/StoneHengeLogoBlack.png": "/linder/static/media/StoneHengeLogoBlack.513af1dce2e0e81f4b74.png",
+    "index.html": "/linder/index.html",
+    "main.ec24a623.css.map": "/linder/static/css/main.ec24a623.css.map",
+    "main.05070bcb.js.map": "/linder/static/js/main.05070bcb.js.map",
+    "787.fa1be493.chunk.js.map": "/linder/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d861705d.css",
-    "static/js/main.93124b38.js"
+    "static/css/main.ec24a623.css",
+    "static/js/main.05070bcb.js"
   ]
 }

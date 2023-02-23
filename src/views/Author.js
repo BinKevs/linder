@@ -3,8 +3,8 @@ function Author() {
   return (
     <>
       <div className="md:h-screen bg-white flex md:mt-0 mt-[88px] relative">
-        <div className="m-auto w-[80%] flex md:flex-row flex-col">
-          <div className=" my-auto text-justify md:mr-[32px] md:order-first order-last z-50">
+        <div className="m-auto w-[80%] flex md:flex-row flex-col ">
+          <div className=" my-auto  text-justify md:mr-[32px] md:order-first order-last md:z-50">
             Hello, my name is{" "}
             <span className="md:text-7xl text-4xl font-semibold text-[#3D8FAA]">
               Jeralynne Linder{" "}
@@ -34,16 +34,16 @@ function Author() {
             me And how I got started. I will forever be grateful.
           </div>
 
-          <div className="bg-[#46B0C8] rounded-tr-[780px] rounded-br-[50px] rounded-bl-[50px] min-w-[600px] object-cover object-top">
+          <div className="bg-[#46B0C8] rounded-tr-[780px] rounded-br-[50px] rounded-bl-[50px] md:mt-0 mt-[5vh] md:min-w-[600px] object-cover object-top">
             <img
-              className="mx-auto rounded-3xl min-w-[350px] mb-12"
+              className="mx-auto rounded-3xl md:min-w-[350px] min-w-[250px] mb-12"
               src={linderWtOutBg}
               alt=""
             />
           </div>
         </div>
         <img
-          className="absolute bottom-0 left-1/4 !z-40"
+          className="md:block hidden absolute bottom-0 md:left-1/4 !z-40"
           src="https://media.istockphoto.com/id/465870776/photo/sleeping-husky-puppy.jpg?s=612x612&w=0&k=20&c=fUIXgIiNnd6HIV5ccGdnMldp27KaMhXpILxPn0wqWLc="
           alt=""
         />
