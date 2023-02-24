@@ -11,14 +11,14 @@ import amazonCom from "../assets/amazonCom.png";
 function Landing() {
   return (
     <>
-      <div className="bg-[#46B0C8]">
+      <div className="bg-[#46B0C8] ">
         <div className="flex md:flex-row flex-col md:h-screen relative md:w-[80%] mx-auto justify-center">
           <div className="md:w-[50%]  md:mx-0 mx-auto md:h-[100%] h-[80vh] md:mt-0 mt-[20vh] flex text-white">
             <div className="m-auto md:w-[80%] w-[90%] space-y-8 text-center font-RobotoSlab ">
-              <div className="md:text-7xl text-4xl font-bold ">
+              <div className="xl:text-7xl text-4xl font-bold ">
                 The Dog That Couldn't{" "}
                 <span className="text-[#AC3318]">Bark</span>
-                <div className="md:text-4xl text-2xl font-semibold mt-4">
+                <div className="xl:text-4xl text-2xl font-semibold mt-4">
                   By Jeralynne Linder
                 </div>
               </div>
@@ -73,9 +73,9 @@ function Landing() {
         <div>
           <div className="md:h-screen flex">
             <div className="w-[70%] m-auto md:text-center flex md:flex-row flex-col md:space-x-16 md:space-y-0 space-y-8 ">
-              <div className="bg-[#46B0C8] rounded-bl-[780px] md:min-w-[600px] min-w-[250px]">
+              <div className="bg-[#46B0C8] rounded-bl-[780px] xl:min-w-[600px] min-w-[250px]">
                 <img
-                  className="mx-auto rounded-3xl md:min-w-[350px] min-w-[150px]"
+                  className="mx-auto rounded-3xl xl:min-w-[350px] min-w-[150px]"
                   src={linderWtOutBg}
                   alt=""
                 />
