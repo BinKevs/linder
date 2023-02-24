@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/linder/static/css/main.ec24a623.css",
-    "main.js": "/linder/static/js/main.05070bcb.js",
+    "main.css": "/linder/static/css/main.ab5cfd08.css",
+    "main.js": "/linder/static/js/main.14fc94a0.js",
     "static/js/787.fa1be493.chunk.js": "/linder/static/js/787.fa1be493.chunk.js",
     "static/media/siberianWtInfo.jpg": "/linder/static/media/siberianWtInfo.d1386dec94a10d6ced73.jpg",
     "static/media/siberianWtKindle.jpg": "/linder/static/media/siberianWtKindle.cf8a53d072af8b987ffc.jpg",
@@ -14,12 +14,12 @@
     "static/media/linder_wtout_bg.png": "/linder/static/media/linder_wtout_bg.834a650a781e5e140356.png",
     "static/media/StoneHengeLogoBlack.png": "/linder/static/media/StoneHengeLogoBlack.513af1dce2e0e81f4b74.png",
     "index.html": "/linder/index.html",
-    "main.ec24a623.css.map": "/linder/static/css/main.ec24a623.css.map",
-    "main.05070bcb.js.map": "/linder/static/js/main.05070bcb.js.map",
+    "main.ab5cfd08.css.map": "/linder/static/css/main.ab5cfd08.css.map",
+    "main.14fc94a0.js.map": "/linder/static/js/main.14fc94a0.js.map",
     "787.fa1be493.chunk.js.map": "/linder/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec24a623.css",
-    "static/js/main.05070bcb.js"
+    "static/css/main.ab5cfd08.css",
+    "static/js/main.14fc94a0.js"
   ]
 }
